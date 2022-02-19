@@ -48,8 +48,30 @@ CONFIGURACIÓN Y EJECUCIÓN. Para compilar el proyecto api utilice maven. Puede 
 
 
 Script para crear la Base de dato y las tablas en postgresql.
-![d](https://user-images.githubusercontent.com/89054795/154803750-3333cbdc-1d76-400d-803c-c001544c9696.png)
+
 
 Nombre de la base de datos: registro
+![d](https://user-images.githubusercontent.com/89054795/154803750-3333cbdc-1d76-400d-803c-c001544c9696.png)
+
+
+--Tabla rol
+
+CREATE TABLE rol (
+	id_rol serial PRIMARY KEY,
+	nombre varchar(50) not null unique
+);
+
+
+
+---Tabla usuario
+
+CREATE TABLE usuario (
+	id_usuario serial PRIMARY KEY,
+        id_rol integer not null,
+	nombre varchar(50) not null,
+        activo varchar(1) not null,
+        FOREIGN KEY (id_rol) REFERENCES rol(id_rol)	
+);
+
 
 
