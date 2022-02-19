@@ -4,99 +4,52 @@ En este repositorio encontrará dos carpetas:
 * api: es el proyecto en java springboot.
 * cliente: cliente es el proyecto construido en angular.
 
-### Requerimiento
-* Java 11 como minimo.
-* Servidor mysql.
-* maven.
-* Eclipse con el plugin spring, o Spring Tool Suit.
 
 
-### Configuracion y ejecusión.
-Para compilar el proyecto api utilice maven. Puede utilizar el IDE eclipse o Spring Tool Suit para compilar o ejecutar. Este levantará el servicio por el puerto 8080. Este proyecto conectará a una base de datos Mysql.
-Para compilar el proyecto cliente utilice node.
+PRUEBA TECNICA:
+
+Empresa: Octans
 
 
-```
+INTRODUCCIÓN : Este repositorio consiste en mostrar las habilidades técnicas (Springbook-Java) a travéz de la resolución de los problemas planteados .
 
-PLAN DE TRABAJO :
-El repositorio se realizó en 2 días y para ello se propuso dividir el proyecto en una serie de etapas que se detallarán a continuación :
+TECNOLOGÍA Y PATRONES DE DISEÑO EMPLEADO.
 
-ETAPA 1 :
-Plantear la lógica inicial de los problemas.
+.Patron de diseño -> Inyección de dependencia.
 
+.Rest con el framework -> springbook
 
-ETAPA 2 :
-Creacion y normalizacion de bases de datos .
+.Mapeo objeto-relacional -> Hibernate
 
+.Repositorios de git
 
-ETAPA 3 :
-Plasmar la lógica en código(Api Rest) .
-
-
-ETAPA 3 :
-Consumir Api Rest (CLIENTE)
-
-
-ETAPA 4 :
-Versión final README.
+.Angular
 
 
 
+PLAN DE TRABAJO : El repositorio se realizó en 2 días y para ello se propuso dividir el proyecto en una serie de etapas que se detallarán a continuación :
 
+ETAPA 1 : Plantear la lógica inicial de los problemas.
 
-ARCHIVOS IMPORTANTES
-El proyecto presenta los siguientes archivos para uso del usuario:
-README.md con descripción del repositorio, imagenes del mismo y organización.
-index.html: Pagina Principal para iniciar sesión.
-src: Todo el codigo fuente.
-controllers: Definimos las rutas.
-dao: Toda la logica relacionada con la base de datos
-modelo: Nombres de la entidades (estrutura).
-static: Frontend (consumidor de Api Rest).
+ETAPA 2 : Creacion y normalizacion de bases de datos .
 
+ETAPA 3 : Plasmar la lógica en código(Api Rest) .
 
-CONFIGURACIÓN Y EJECUCIÓN.
-Para compilar el proyecto api utilice maven. Puede utilizar el intellij idea, IDE eclipse o Spring Tool Suit para compilar o ejecutar. Este levantará el servicio por el puerto 8080. Este proyecto conectará a una base de datos Mysql. Para compilar el proyecto cliente utilice node.
+ETAPA 3 : Consumir Api Rest (CLIENTE)
+
+ETAPA 4 : Versión final README.
 
 
 
-PAGINA PRINCIPAL  (INICIO DE SESSION)
-![ddd](https://user-images.githubusercontent.com/89054795/149599681-c21666c8-d778-446f-8947-ce47df0e79ef.png)
+ARCHIVOS IMPORTANTES El proyecto presenta los siguientes archivos para uso del usuario: README.md con descripción del repositorio, imagenes del mismo y organización. src: Todo el codigo fuente. controllers: Definimos las rutas. service: Toda la logica relacionada con la base de datos modelo: Nombres de la entidades (estrutura). : Frontend (consumidor de Api Rest).
 
-
-REGISTRAR CLIENTES
-![11](https://user-images.githubusercontent.com/89054795/149599807-1cd62272-dd2c-49a7-8d3b-064bffbb0960.png)
-
-
-LISTADO CLIENTES
-![xxxxxxxxxxxxxx](https://user-images.githubusercontent.com/89054795/154792805-f1030ff2-968c-4842-8db2-eaf9ac4f4aa2.png)
+CONFIGURACIÓN Y EJECUCIÓN. Para compilar el proyecto api utilice maven. Puede utilizar el intellij idea, IDE eclipse o Spring Tool Suit para compilar o ejecutar. Este levantará el servicio por el puerto 8080. Este proyecto conectará a una base de datos postgresql. Para compilar el proyecto cliente utilice Angular.
 
 
 
+Script para crear la Base de dato y las tablas en postgresql.
+![d](https://user-images.githubusercontent.com/89054795/154803750-3333cbdc-1d76-400d-803c-c001544c9696.png)
 
-ARCHIVOS IMPORTANTES
-El proyecto presenta los siguientes archivos para uso del usuario:
-README.md con descripción del repositorio, imagenes del mismo y organización.
-index.html: Pagina Principal para iniciar sesión.
-src: Todo el codigo fuente.
-controllers: Definimos las rutas.
-dao: Toda la logica relacionada con la base de datos
-modelo: Nombres de la entidades (estrutura).
-static: Frontend (consumidor de Api Rest).
+Nombre de la base de datos: registro
 
-
-CONFIGURACIÓN Y EJECUCIÓN.
-Para compilar el proyecto api utilice maven. Puede utilizar el intellij idea, IDE eclipse o Spring Tool Suit para compilar o ejecutar. Este levantará el servicio por el puerto 8080. Este proyecto conectará a una base de datos Mysql. Para compilar el proyecto cliente utilice node.
-
-
-
-PAGINA PRINCIPAL  (INICIO DE SESSION)
-![ddd](https://user-images.githubusercontent.com/89054795/149599681-c21666c8-d778-446f-8947-ce47df0e79ef.png)
-
-
-REGISTRAR CLIENTES
-![11](https://user-images.githubusercontent.com/89054795/149599807-1cd62272-dd2c-49a7-8d3b-064bffbb0960.png)
-
-
-LISTADO CLIENTES
 
