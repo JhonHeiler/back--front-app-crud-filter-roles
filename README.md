@@ -16,27 +16,26 @@ Para compilar el proyecto api utilice maven. Puede utilizar el IDE eclipse o Spr
 Para compilar el proyecto cliente utilice node.
 
 
-Script para crear la Base de dato y las tablas en mysql.
-
-**Nombre de la base de datos:** codesaprueba
-
-```sql
-CREATE TABLE rol(id_rol INT NOT NULL AUTO_INCREMENT,
-    nombre VARCHAR(35) NOT NULL,
-    PRIMARY KEY (id_rol)
-);
-
-CREATE TABLE usuario(
-    id_usuario INT NOT NULL AUTO_INCREMENT,
-    id_rol INT,
-    nombre VARCHAR(50) NOT NULL,
-    activo CHAR(1) DEFAULT('A'),
-    PRIMARY KEY (id_usuario),
-    INDEX roluser (id_rol),
-    FOREIGN KEY(id_rol) REFERENCES rol(id_rol)
-);
-
-INSERT INTO rol VALUES(null, 'ADMINISTRADOR'),
-(null,'AUDITOR'),
-(null, 'AUXILIAR');
 ```
+
+PLAN DE TRABAJO :
+El repositorio se realizó en 2 días y para ello se propuso dividir el proyecto en una serie de etapas que se detallarán a continuación :
+
+ETAPA 1 :
+Plantear la lógica inicial de los problemas.
+
+
+ETAPA 2 :
+Creacion y normalizacion de bases de datos .
+
+
+ETAPA 3 :
+Plasmar la lógica en código(Api Rest) .
+
+
+ETAPA 3 :
+Consumir Api Rest (CLIENTE)
+
+
+ETAPA 4 :
+Versión final README.
