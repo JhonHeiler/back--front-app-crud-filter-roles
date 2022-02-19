@@ -1,7 +1,11 @@
 Proyecto que implementa un servicio apirest construido con springboot. El cliente es un proyecto en angular que consume el api.
 
-En este repositorio encontrará dos carpetas: 
+
+
+En este repositorio encontrará dos carpetas:
+
 * api: es el proyecto en java springboot.
+
 * cliente: cliente es el proyecto construido en angular.
 
 
@@ -52,6 +56,8 @@ Script para crear la Base de dato y las tablas en postgresql.
 
 Nombre de la base de datos: registro
 ![d](https://user-images.githubusercontent.com/89054795/154803750-3333cbdc-1d76-400d-803c-c001544c9696.png)
+
+
 
 
 --Tabla rol
