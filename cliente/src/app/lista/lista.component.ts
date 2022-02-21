@@ -18,9 +18,9 @@ export class ListaComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.getUsuarios(null);
-    this.usuarioService.buscarSuscriber$.subscribe((data: string) => {
-      this.usuarioSelected = null;
+    this.getUsuarios('');
+    this.usuarioService.buscarSuscriber$.subscribe((data: any) => {
+      this.usuarioSelected;
       this.getUsuarios(data);
     });
   }
@@ -40,7 +40,10 @@ export class ListaComponent implements OnInit {
   }
 
   crear(): void {
-    this.mensajeService.agregarMensaje(null);
+    this.mensajeService.agregarMensaje({
+      texto: '',
+      tipo: 0,
+    });
     this.usuarioSelected = {
       id: -1,
       nombre: '',
