@@ -12,7 +12,7 @@ En este repositorio encontrará dos carpetas:
 
 PRUEBA TECNICA:
 
-Empresa: Octans
+
 
 
 INTRODUCCIÓN : Este repositorio consiste en mostrar las habilidades técnicas (Springbook-Java) a travéz de la resolución de los problemas planteados .
